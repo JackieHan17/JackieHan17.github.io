@@ -2,14 +2,15 @@
 body {
   margin:auto;
   margin-top: 0px;
-  height:940px;
-  width: 1260px;
   background-color: #EDF2C5;
 }
 header{
     padding-top: 50px;
 }
 .page-wrap{
+  margin:auto;
+  height:940px;
+  width: 1260px;
   padding-left: 160px;
   padding-right: 160px;
   min-height: 100%;
@@ -159,6 +160,7 @@ header{
 .footer {
   /* Set the fixed height of the footer here */
   height: 60px;
+  width: 100%
   color:#EDF2C5;
   background-color: #889C5B;
   text-align: center;
@@ -184,6 +186,9 @@ header{
         height: 43px;
         background-color:#889C5B;
         border-color: transparent;
+    }
+    .navbar-header{
+        background-color:#889C5B;
     }
     .nav-ml{
       margin-left: 0px;
