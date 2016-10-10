@@ -1,0 +1,205 @@
+
+body {
+  margin:auto;
+  margin-top: 0px;
+  height:940px;
+  width: 1260px;
+  background-color: #EDF2C5;
+}
+header{
+    padding-top: 50px;
+}
+.page-wrap{
+  padding-left: 160px;
+  padding-right: 160px;
+  min-height: 100%;
+/* equal to footer height */
+  margin-bottom: -60px
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.header-top{
+      margin-bottom: 10px;
+      max-width: 940px;
+}
+.header-logo{
+      padding:0px 0px 13px 0px;
+      max-height: 43px;
+      max-width: 270px;
+      margin: 0px;
+      color: #889C5B;
+      font-family: Arial Black,arail;
+      font-size: 44px;
+      line-height:70%;
+    }
+.header-right{
+      max-width:196px;
+      padding:0px 0px 7px 0px;
+}
+.social-media{
+      width:68px;
+      display: inline;
+      margin:0px;
+      padding: 0px 2px 0px 0px;
+}
+.social-media img{
+      vertical-align:left;
+      padding-right: 6px;
+}
+.login{
+      width: 128px;
+      height: 20px;
+      margin: 0px;
+      margin: 5px 0px 0px 0px;
+      padding: 0px 0px 0px 10px;
+      border-left-color:#778A50;
+      border-left-style:solid;
+      border-left-width:1px;
+}
+.veg-btn{
+      border-radius:3px;
+      color : #75874F;
+      background-color:#EDF2C5;
+      border: 1px solid #889C5B;
+      text-align: center;
+      vertical-align: middle;
+      font-family: Arial Black,arail;
+      font-size: 12px;
+      line-height: 1px;
+}
+.btn-login{
+      height: 20px;
+      width: 60px;
+      margin-right: 2px;
+}
+.btn-join{
+      height: 20px;
+      width: 50px;
+}
+.navbar-default{
+      background-color:transparent;
+      border-color: transparent;
+      margin: 0px 0px 15px 0px;
+}
+.veg-nav .container-fluid{
+      padding: 0px;
+}
+#navbar{
+      font-family: Arial Black,arail;
+      font-size: 16px;
+      background-color:#889C5B;
+      border-radius: 3px;
+
+}
+.navbar-default .navbar-nav>li>a {
+    max-height: 43px;
+    color:#EDF2C5;
+    letter-spacing: 0.03em;
+    padding: 16px ;
+    line-height:12px ;
+}
+.nav-ml{
+  margin-left: 28px;
+}
+.content{
+    max-width:940px;
+    margin-top: 32px;
+
+}
+.content .col-lg-6{
+    padding: 0px;
+}
+.content-title{
+    max-width: 444px;
+    height: 44px;
+    padding: 16px 0px 16px 31px;
+    margin: 0px;
+    border-radius: 3px;
+    background-color: #889C5B;
+    color:#EDF2C5;
+    font-family: Arial Black,arail;
+    font-size: 16px;
+    line-height: 12px;
+}
+.content-right{
+    margin-left:26px;
+}
+.content-img .img-responsive{
+    padding: 0px;
+}
+.content-img .col-lg-4{
+    margin: 17px -5px 0px 0px;
+    padding: 0px;
+}
+.content-contact{
+    width:444px;
+    height: 140px;
+    margin:17px 0px 0px 55px;
+    background-color: #F5F8B9;
+    color: #898989;
+    font-family: Arial;
+    font-size: 12px;
+}
+.content-contact .col-lg-12{
+    padding: 15px;
+}
+.contact-email{
+  padding: 15px 0px 0px 0px;
+  border-top-color: #898989;
+  border-top-width: 1px;
+  border-top-style: solid;
+  line-height: 11px;
+}
+.contact-phone{
+  padding: 15px 0px 0px 0px;
+  line-height: 1px;
+}
+.footer {
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  color:#EDF2C5;
+  background-color: #889C5B;
+  text-align: center;
+  padding-top: 24px;
+}
+.text-muted{
+  color:#EDF2C5;
+  font-size: 12px;
+  font-family: Arial;
+  letter-spacing: 0.01em;
+  line-height:12px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    body ,.header-top ,.header-logo ,.header-right ,.header-right ,.social-media ,.login,.navbar-default,#navbar,.content,.page-wrap{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: inherit;
+    }
+    .navbar-default{
+        height: 43px;
+        background-color:#889C5B;
+        border-color: transparent;
+    }
+    .nav-ml{
+      margin-left: 0px;
+    }
+    .content-right{
+      margin-left: 0px;
+    }
+    .navbar-default{
+      z-index:1;
+    }
+    .content-contact{
+      width: auto;
+      height: auto;
+      padding:0px;
+      background-color:transparent;
+    }
+    .page-wrap{
+      margin-bottom: 30px;
+    }
